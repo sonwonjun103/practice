@@ -20,7 +20,7 @@ from save_fig import save_fig
 from test.inference import *
 
 def main():
-    #안녕하세요 ㅎㅎ
+    # git 변경사항
     device = "cuda" if torch.cuda.is_available() else 'cpu'
     print(f"device : {device}")
 
